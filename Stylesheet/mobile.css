@@ -1,0 +1,78 @@
+body{
+  overflow-x: hidden;
+}
+
+#navbar .container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#navbar .logo{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+#navbar .logo h1 a img{
+  width: 1.2rem;
+}
+#navbar .container ul li a{
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+/* showcase */
+#showcase .showcase-container,
+#main-footer .footer-container{
+  grid-template-columns: 1fr;
+}
+#main-footer .footer-container >*:last-child{
+  grid-column: 1;
+}
+.btn{
+  padding: 0 1rem;
+}
+/* about page */
+/* boxes */
+#about-container .main-info #first{
+  grid-column: 1 /span 2;
+}
+#about-container .main-info #second{
+  grid-column: 1 /span 2;
+}
+#about-container .main-info #third{
+  height: 100%;
+}
+.btn-footer-about{
+  display: inline-block;
+  padding: 0 0.4rem;
+  margin-top: 1rem;
+  width: 20%;
+  border-radius: 5px;
+}
+/* contact form */
+#contact-form h1{
+  margin: 0.8rem 0;
+}
+#contact-form h4{
+  margin: 0.6rem 0;
+  align-self: center;
+  font-size: smaller;
+}
+.form-group textarea,.form-group input{
+  width: 85%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.form-group textarea{
+  height: 100px;
+}
+.submit-btn{
+  background-color: #a846e0;
+  color: #fff ;
+  padding: 8px 8px ;
+  margin: 0.6rem 0;
+  border: 1px solid #ebeef0 ;
+  border-radius: 5px ;
+  width: 85%;
+  cursor: pointer;
+}
